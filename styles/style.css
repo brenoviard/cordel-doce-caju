@@ -1,0 +1,93 @@
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'El Messiri',sans-serif;
+    --font3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: rgba(240, 169, 128, 0.445);
+    font-family: var(--font3);
+    
+   
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgba(243, 239, 10, 0.582), rgba(252, 6, 6, 0.692));
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+}
+
+header > h1{
+    padding-top: 40px;
+    font-size: 3em;
+    font-family: var(--font2);
+    text-shadow: 2px 2px 0 black;
+}
+
+header > p{
+    padding-bottom: 40px;
+    font-size: 1.2em;
+    font-family: var(--font1);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+aside{
+padding-top:10vh;
+padding-bottom: 10vh;
+padding-left: 30px;
+line-height: 1.5em;
+font-size: 3.5vw;
+}
+
+aside.image{
+    background-image: url(../img/Compota-de-caju.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right-center;
+    box-shadow: inset 6px 6px 13px 0(0,0,0,0.254);
+    
+
+    
+}
+
+aside.image > p{
+    color: white;
+ 
+    background-color: rgba(0, 0, 0, 0.315);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.513);
+    padding: 5px;
+    display: inline-block;
+    
+
+}
+
+
+footer{
+    padding: 5px;
+    background-image: linear-gradient(to bottom, rgba(243, 239, 10, 0.582), rgba(252, 6, 6, 0.692));
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    font-size: 1.2em;
+    font-family: var(--font1);
+}
